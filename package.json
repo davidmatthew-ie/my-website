@@ -1,0 +1,29 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "The code for my 11ty-based website.",
+  "scripts": {
+    "clean": "rm -r dist",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidmatthew-ie/my-website.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "tailwind",
+    "vite"
+  ],
+  "author": "David Matthew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmatthew-ie/my-website/issues"
+  },
+  "homepage": "https://github.com/davidmatthew-ie/my-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
